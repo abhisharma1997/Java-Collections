@@ -130,3 +130,20 @@ Methods in List Interface
         3. peek()       
         4. search(T element)
         5. empty()
+
+###### Linked List Class
+
+It is class which implements LinkedList Data Structure.
+It stores data as an object(Node) which contains data and address of next and previous data node.
+
+In LL, data is not stored in contigous memory location.
+
+Size doesnot matter in this because they will ultimately save the address of other data node. so removing the address of
+next node or prev. node, unlink this from LinkedList list.
+
+Common Operations :
+       
+        1. Adding element
+        2. Updating Element
+        3. Removing element
+        4. Iterating Over elements
